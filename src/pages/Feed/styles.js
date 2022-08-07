@@ -40,3 +40,11 @@ export const Description = styled.Text`
 	padding: 15px;
 	line-height: 18px;
 `;
+//ActivityIndicator é um sinal de loading do ReactNative
+//Que se adapta a qualquer platafora seja Android IOS ou...
+export const Loadin = styled.ActivityIndicator.attrs({
+	size: "small",
+	color:"#999"
+})`
+	margin: 30px 0
+`
